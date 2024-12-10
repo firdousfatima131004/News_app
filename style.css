@@ -1,0 +1,46 @@
+/* Add hover effect to the card */
+.card:hover {
+     transform: translateY(-10px);
+     /* Slightly lift the card */
+     box-shadow: 0 8px 16px #8B0000;
+     /* Add a shadow effect */
+     transition: transform 0.3s ease, box-shadow 0.3s ease;
+     /* Smooth animation */
+}
+
+/* Change button color on hover */
+.card .btn:hover {
+     background-color: #8B0000;
+     /* Darker blue for the button */
+     border-color: #8B0000;
+     transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+
+
+footer {
+     background-color: #8B0000;
+     /* Red color */
+}
+
+footer a {
+     text-decoration: none;
+}
+
+footer a:hover {
+     text-decoration: underline;
+     /* Add hover effect for links */
+}
+
+footer i {
+     font-size: 24px;
+}
+
+footer .container {
+     max-width: 1140px;
+}
+
+
+
+
+
