@@ -59,9 +59,6 @@ This is a **news aggregation application** that fetches top headlines from the *
 - The application fetches data from the `NewsAPI`:
   
   ```javascript
-  const API_KEY = "your-api-key-here";
-  const API_URL = `https://newsapi.org/v2/top-headlines?country=us&apiKey=${API_KEY}`;
-
   const newsHTML = `
   <div class="col-md-4">
     <div class="card mb-4">
